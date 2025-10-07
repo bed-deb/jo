@@ -2,10 +2,10 @@ function login() {
         var password = document.getElementById('password').value;
 
         // Tablica przechowująca poprawne hasła
-        var correctPasswords = [""]; // Możesz dodać więcej haseł tutaj
+        var correctPasswords = ["ogrodniczek"]; // Możesz dodać więcej haseł tutaj
 
         // Sprawdzenie, czy wprowadzone hasło znajduje się w tablicy
-        if (password === "ogrodniczek") {
+        if (password === "") {
             alert("Proszę wprowadzić hasło.");
         } else if (correctPasswords.includes(password)) {
             // Jeśli hasło jest poprawne, przekierowanie na stronę
